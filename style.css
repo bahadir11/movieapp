@@ -58,12 +58,12 @@ header a:hover {
 }
 
 #showcase {
-width: 100%;
+    width: 100%;
     height: 100vh;
     position: absolute;
     background-color: #4e0f81;
     opacity: .4;
-    
+
 }
 
 .wel {
@@ -75,7 +75,7 @@ width: 100%;
     background-attachment: fixed;
 
     margin: 0%;
-   
+
 }
 
 .wel h1 {
@@ -183,13 +183,14 @@ footer {
 .fiftydiv {
     margin: 0%;
     background-color: rgb(1, 65, 65);
+
 }
 
 .fiftydivimg {
     background: url(img/features.jpeg);
     background-repeat: no-repeat;
-    background-position: center-top;
-    background-size: 100vh;
+    background-position: center top;
+    background-size: 110vh;
 
 
 }
@@ -218,13 +219,14 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
 }
-.cover{
+
+.cover {
     width: 50%;
     height: 100vh;
     position: absolute;
     background-color: #07468f;
     opacity: .4;
-    
+
 }
 
 
@@ -237,7 +239,7 @@ footer {
 
 }
 
-.member3 h1 {
+.headh1 {
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
@@ -373,24 +375,120 @@ footer {
 
     width: fit-content;
 }
-.colons3{
-text-align: center;
-background-image: linear-gradient(to bottom, azure , #87addb  );
+
+.colons3 {
+    text-align: center;
+    background-image: linear-gradient(to bottom, azure, #87addb);
 }
-.colon1{
-    padding-top: 10px;
-    display: inline-block;
-    width: 33%;
-}.colon2{
-    padding-top: 10px;
-    display: inline-block;
-    width: 33%;
-}.colon3{
+
+.colon1 {
     padding-top: 10px;
     display: inline-block;
     width: 33%;
 }
-#numbers{
-    color:#07468f;
+
+.colon2 {
+    padding-top: 10px;
+    display: inline-block;
+    width: 33%;
+}
+
+.colon3 {
+    padding-top: 10px;
+    display: inline-block;
+    width: 33%;
+}
+
+#numbers {
+    color: #07468f;
     font-size: x-large;
+}
+
+.colon-3-moviecards {
+    width: 100%;
+    background-color: #87addb;
+    margin: 0%;
+position: relative;
+    padding-top: 1%;
+    padding-bottom: 5%;
+
+}
+
+.colon-3-moviecards img {
+    width: 100%;
+    height: 50vh;
+
+
+}
+.colon-3-moviecards button{
+    padding: 4%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+.colon-3-moviecards h3 {
+    text-align: left;
+    padding-left: 15px;
+    color: rgb(233, 233, 233);
+    font-size: larger;
+
+
+}
+
+.colon-3-moviecards p {
+    text-align: justify;
+    padding: 15px;
+    text-indent: 10px;
+    color: rgb(190, 216, 247);
+
+
+}
+
+.colon1movc {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 6%;
+    display: inline-block;
+    width: 20%;
+    box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.5);
+    right: 20px;
+    background-color: #1b5c88;
+
+}
+.colon1movc:hover {
+   box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.8);
+   transition: box-shadow .3s;
+   position: relative;
+   top: -20px;
+   
+
+
+    
+   
+}
+
+.colon2movc {
+    box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.5);
+    margin-top: 3%;
+    display: inline-block;
+    width: 20%;
+    margin-left: 3%;
+    background-color: #1b5c88;
+
+}
+
+
+.colon2movc:hover {
+    box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.8);
+
+    margin-top: 3%;
+    transition: box-shadow .3s;
+
+    display: inline-block;
+    width: 20%;
+    margin-left: 3%;
+    background-color: #1b5c88;
+    position: relative;
+    top: -20px;
 }
