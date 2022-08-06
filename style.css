@@ -401,6 +401,7 @@ footer {
 position: relative;
     padding-top: 1%;
     padding-bottom: 5%;
+    transition: .3s;
 
 }
 
@@ -447,15 +448,14 @@ position: relative;
     right: 20px;
     background-color: #1b5c88;
     top: 0px;
-    transition: top .3s;
+    transition: .3s;
 
 }
 .colon1movc:hover {
    box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.8);
    position: relative;
    top: -20px;
-   
-   transition: top .3s ;  
+   transition: .3s;
 }
 .colon2movc {
     box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.5);
@@ -464,33 +464,25 @@ position: relative;
     width: 20%;
     margin-left: 3%;
     background-color: #1b5c88;
+    position: relative;
     top: 0px;
-
+    transition: .3s;
 }
 
 
 .colon2movc:hover {
     box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.8);
-
-    margin-top: 3%;
-    top: -20px;
-
-    transition: top .3s ;
-    
-
-    display: inline-block;
-    width: 20%;
-    margin-left: 3%;
-    background-color: #1b5c88;
-    position: relative;
-    top: -20px;
+   position: relative;
+   top: -20px;
+   transition: .3s;
+   transition: top .3s ;  
 }
 .col-2foot{
     width: 100%;
     display: inline-block;
     text-align: center;
     height: 15vh;
-background-color: #07468f;
+    background-color: #07468f;
     font-size: x-large;
 }
 
