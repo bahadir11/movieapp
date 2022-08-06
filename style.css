@@ -145,6 +145,7 @@ header a:hover {
 
 footer {
     background-color: tomato;
+    width: 100%;
 }
 
 .triplepanel p {
@@ -190,7 +191,7 @@ footer {
     background: url(img/features.jpeg);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 110vh;
+    background-size: 110vh ;
 
 
 }
@@ -219,17 +220,6 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
 }
-
-.cover {
-    width: 50%;
-    height: 100vh;
-    position: absolute;
-    background-color: #07468f;
-    opacity: .4;
-
-}
-
-
 .member3 {
 
     background-color: azure;
@@ -417,6 +407,8 @@ position: relative;
 .colon-3-moviecards img {
     width: 100%;
     height: 50vh;
+    max-height: 350px;
+    cursor: pointer;
 
 
 }
@@ -454,20 +446,17 @@ position: relative;
     box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.5);
     right: 20px;
     background-color: #1b5c88;
+    top: 0px;
+    transition: top .3s;
 
 }
 .colon1movc:hover {
    box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.8);
-   transition: box-shadow .3s;
    position: relative;
    top: -20px;
    
-
-
-    
-   
+   transition: top .3s ;  
 }
-
 .colon2movc {
     box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.5);
     margin-top: 3%;
@@ -475,6 +464,7 @@ position: relative;
     width: 20%;
     margin-left: 3%;
     background-color: #1b5c88;
+    top: 0px;
 
 }
 
@@ -483,7 +473,10 @@ position: relative;
     box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, 0.8);
 
     margin-top: 3%;
-    transition: box-shadow .3s;
+    top: -20px;
+
+    transition: top .3s ;
+    
 
     display: inline-block;
     width: 20%;
@@ -491,4 +484,24 @@ position: relative;
     background-color: #1b5c88;
     position: relative;
     top: -20px;
+}
+.col-2foot{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    height: 15vh;
+background-color: #07468f;
+    font-size: x-large;
+}
+
+.col-2foot-1{
+    display: inline-block;
+    width: 50%;
+    margin-top: 3%;
+   
+}
+.col-2foot-1 a:hover{
+    color:#fc997c;
+    
+   
 }
