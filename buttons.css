@@ -1,0 +1,51 @@
+.btn{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    transition: .4s;
+}
+.btn-primary{
+    background: tomato;
+    color: white;
+    border:2px solid tomato;
+}
+.btn-outline-primary{
+    background: white;
+    color:tomato ;
+    border:2px solid tomato;
+}
+.btn-outline-primary:hover{
+    background: tomato;
+    color: white;
+    border:2px solid tomato;
+}
+.btn-primary:hover{
+    background: white;
+    color:tomato ;
+    border:2px solid tomato;
+}
+.btn-secondary{
+    background: #48466D;
+    color: white;
+    border: 2px solid #48466D;
+}
+.btn-secondary:hover{
+    background: white;
+    color: #48466D;
+    border: 2px solid #48466D;
+}
+.btn-outline-secondary{
+    background: white;
+    color: #48466D;
+    border: 2px solid #48466D;
+}
+.btn-outline-secondary:hover{
+    background: #48466D;
+    color: white;
+    border: 2px solid #48466D;
+}

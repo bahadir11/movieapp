@@ -1,0 +1,396 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    background-color: rgb(31, 31, 112);
+
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    box-sizing: border-box;
+    background: #607EAA;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+
+.mainheadernav {
+    box-sizing: border-box;
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    width: 70%;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+header a {
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 27%;
+
+}
+
+
+
+a:hover {
+    color: blue;
+    font-size: x-large;
+}
+
+header a:hover {
+    font-size: medium;
+}
+
+#showcase {
+width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: #4e0f81;
+    opacity: .4;
+    
+}
+
+.wel {
+    background: url(img/tvwatchinh.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+
+    margin: 0%;
+   
+}
+
+.wel h1 {
+    display: inline-block;
+    background-color: rgba(1, 0, 88, 0.384);
+    border: 2px solid black;
+    color: rgb(7, 84, 226);
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 60%;
+    height: fit-content;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 60px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+#mainheaderlogo {
+    margin-left: 10px;
+    font-weight: bolder;
+    width: fit-content;
+}
+
+.mainheaderlogodiv {
+    display: inline-block;
+    width: 29%;
+}
+
+.foot {
+    margin: 0;
+    text-align: center;
+    background: rgb(209, 237, 253);
+    padding-bottom: 10px;
+    border: 3px solid #396eb0;
+    border-top: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.triplepanel {
+    margin: 0px;
+    padding-top: 10%;
+    background-color: azure;
+    width: 100%;
+    height: 400px;
+}
+
+.panel {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(169, 202, 231);
+    box-sizing: border-box;
+    height: 250px;
+    height: fit-content;
+    border: 5px solid rgb(58, 85, 126);
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: tomato;
+}
+
+.triplepanel p {
+    padding: 0px 5px 5px 5px;
+}
+
+.foot h1 {
+    font-size: xx-large;
+    border: 3px solid rgb(86, 159, 207);
+    width: 30%;
+    position: relative;
+    left: 35%;
+    text-align: center;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #1b5c88;
+}
+
+.foot p {
+    text-align: justify;
+    padding-left: 5%;
+    text-indent: 20px;
+    padding-right: 5%;
+}
+
+.panel i {
+    color: rgb(41, 22, 22);
+    padding-top: 10px;
+}
+
+::selection {
+    color: blueviolet;
+    background-color: rgb(0, 0, 0);
+}
+
+.fiftydiv {
+    margin: 0%;
+    background-color: rgb(1, 65, 65);
+}
+
+.fiftydivimg {
+    background: url(img/features.jpeg);
+    background-repeat: no-repeat;
+    background-position: center-top;
+    background-size: 100vh;
+
+
+}
+
+
+.col-2 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49.99%;
+    height: 350px;
+    background-color: rgb(247, 247, 255);
+    vertical-align: top;
+}
+
+.fiftyright {
+    background-color: rgb(209, 237, 253);
+}
+
+.fiftyright h2 {
+    text-align: center;
+}
+
+.fiftyright p {
+    text-align: left;
+    text-indent: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cover{
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    background-color: #07468f;
+    opacity: .4;
+    
+}
+
+
+.member3 {
+
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.member3 h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.member {
+    padding: 20px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 26%;
+    height: fit-content;
+    background-color: #d4f1f8;
+    margin-bottom: 3%;
+    vertical-align: top;
+    border-radius: 3px;
+    box-shadow: 0px 7px 20px 0px rgba(100, 100, 111, 0.2);
+    transition: box-shadow .2s;
+
+
+}
+
+.member:hover {
+    padding: 20px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 26%;
+    height: fit-content;
+    background-color: #d4f1f8;
+    margin-bottom: 3%;
+    vertical-align: top;
+    border-radius: 3px;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.6);
+
+
+}
+
+.plan__margin {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.plan__margin li {
+    margin: 10px 0px;
+}
+
+.member input {
+    margin-bottom: 11px;
+}
+
+#member1 {
+    margin-left: 10%;
+    position: relative;
+    top: 25px;
+}
+
+#member2 {
+    margin-left: 1%;
+    color: white;
+    background-color: #396eb0;
+}
+
+#member2:hover {
+    margin-left: 1%;
+    color: white;
+    background-color: #396eb0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: box-shadow .2s;
+}
+
+#member3 {
+    position: relative;
+    top: 25px;
+    margin-left: 1%;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.member2recommend {
+    background-color: whitesmoke;
+    color: #fc997c;
+    padding: 8px;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: 0px 7px 20px 0px rgba(100, 100, 111, 0.2);
+
+}
+
+.totop a {
+    position: fixed;
+    font-size: xx-large;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: rgb(127, 126, 138);
+
+}
+
+.totop a:hover {
+    position: fixed;
+    font-size: xx-large;
+    transition: color .3s;
+    color: black;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border: none;
+
+}
+
+.login {
+    position: relative;
+    width: 16%;
+    padding: 2px;
+    margin-left: 30px;
+    margin-right: 10px;
+
+}
+
+#filmler {
+
+    width: fit-content;
+}
+.colons3{
+text-align: center;
+background-image: linear-gradient(to bottom, azure , #87addb  );
+}
+.colon1{
+    padding-top: 10px;
+    display: inline-block;
+    width: 33%;
+}.colon2{
+    padding-top: 10px;
+    display: inline-block;
+    width: 33%;
+}.colon3{
+    padding-top: 10px;
+    display: inline-block;
+    width: 33%;
+}
+#numbers{
+    color:#07468f;
+    font-size: x-large;
+}
