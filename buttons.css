@@ -1,4 +1,4 @@
-.btn{
+.btn {
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -9,45 +9,90 @@
     border-radius: 3px;
     transition: .4s;
 }
-.btn-primary{
+
+.btn-primary {
     background: tomato;
     color: white;
-    border:2px solid tomato;
+    border: 2px solid tomato;
 }
-.btn-outline-primary{
+
+.btn-outline-primary {
     background: white;
-    color:tomato ;
-    border:2px solid tomato;
+    color: tomato;
+    border: 2px solid tomato;
 }
-.btn-outline-primary:hover{
+
+.btn-outline-primary:hover {
     background: tomato;
     color: white;
-    border:2px solid tomato;
+    border: 2px solid tomato;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background: white;
-    color:tomato ;
-    border:2px solid tomato;
+    color: tomato;
+    border: 2px solid tomato;
 }
-.btn-secondary{
+
+.btn-secondary {
     background: #48466D;
     color: white;
     border: 2px solid #48466D;
     transition: .4s;
 }
-.btn-secondary:hover{
+
+.btn-secondary:hover {
     background: white;
     color: #48466D;
     border: 2px solid #48466D;
     transition: .4s;
 }
-.btn-outline-secondary{
+
+.btn-outline-secondary {
     background: white;
     color: #48466D;
     border: 2px solid #48466D;
 }
-.btn-outline-secondary:hover{
+
+.btn-outline-secondary:hover {
     background: #48466D;
     color: white;
     border: 2px solid #48466D;
+}
+
+.fa-facebook {
+    background-color: white;
+    font-size: x-large;
+    color: #3b5998;
+    transition: .2s;
+    padding: 10px;
+    border-radius: 300px;
+}
+
+.fa-twitter {
+    padding: 10px;
+    border-radius: 300px;
+    background-color: white;
+    font-size: x-large;
+    transition: .2s;
+
+
+    color: #55acee;
+}
+
+.fa-instagram {
+    padding: 10px;
+    border-radius: 300px;
+
+    font-size: x-large;
+    transition: .2s;
+    background-color: #125688;
+
+    color: #ffffff;
+}
+
+.hover:hover {
+    transition: .2s;
+    box-shadow: 0px 7px 20px 6px rgba(0, 0, 0, .5);
+    transition: box-shadow .2s;
 }

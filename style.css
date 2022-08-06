@@ -1,3 +1,8 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+
+
+
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
@@ -335,6 +340,7 @@ footer {
     background: none;
     border: none;
     color: rgb(127, 126, 138);
+    transition: .3s;
 
 }
 
@@ -482,18 +488,20 @@ position: relative;
     display: inline-block;
     text-align: center;
     height: 15vh;
-    background-color: #07468f;
+    background-image: linear-gradient(to bottom,#87addb,#07468f );
     font-size: x-large;
 }
 
 .col-2foot-1{
     display: inline-block;
     width: 50%;
-    margin-top: 3%;
+    padding-top: 10%;
    
 }
 .col-2foot-1 a:hover{
-    color:#fc997c;
+    padding-top: 10%;
+    color:#0011ff;
+    
     
    
 }
