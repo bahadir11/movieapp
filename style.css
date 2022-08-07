@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
 
-
+@import url(buttons.css);
 
 
 * {
@@ -37,12 +37,17 @@ header {
     width: 70%;
 }
 
-a {
-    color: aliceblue;
+
+.aformovieapp{
     text-decoration: none;
-
+    color: aliceblue;
+    transition: all .3s;
 }
-
+.aformovieapp:hover{
+    text-decoration: none;
+    color: blue;
+    transition: all .3s;
+}
 header a {
 
     display: inline-block;
@@ -53,10 +58,7 @@ header a {
 
 
 
-a:hover {
-    color: blue;
-    font-size: x-large;
-}
+
 
 header a:hover {
     font-size: medium;
@@ -151,6 +153,8 @@ header a:hover {
 footer {
     background-color: tomato;
     width: 100%;
+    position: relative;
+   
 }
 
 .triplepanel p {
@@ -487,16 +491,21 @@ position: relative;
     width: 100%;
     display: inline-block;
     text-align: center;
-    height: 15vh;
+    height: 200px;
     background-image: linear-gradient(to bottom,#87addb,#07468f );
     font-size: x-large;
 }
 
 .col-2foot-1{
+    
     display: inline-block;
     width: 50%;
     padding-top: 10%;
    
+}
+.col-2foot-1 a{
+    margin-left: 10px;
+    font-size:medium;
 }
 .col-2foot-1 a:hover{
     padding-top: 10%;
