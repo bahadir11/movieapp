@@ -1,22 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
 
 @import url(buttons.css);
+@import url(base.css);
 
 
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
 
-html {
-    scroll-behavior: smooth;
-    margin: 0;
-    background-color: rgb(31, 31, 112);
-
-}
-
-body {
-    margin: 0;
-}
 
 header {
    
@@ -76,7 +64,7 @@ header a:hover {
 }
 
 .wel {
-    background: url(img/tvwatchinh.jpeg);
+    background: url(../img/tvwatchinh.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -201,7 +189,7 @@ footer {
 }
 
 .fiftydivimg {
-    background: url(img/features.jpeg);
+    background: url(../img/features.jpeg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 110vh ;
@@ -321,11 +309,7 @@ footer {
     margin-left: 1%;
 }
 
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
+
 
 .member2recommend {
     background-color: whitesmoke;
