@@ -19,6 +19,8 @@ body {
 }
 
 header {
+   
+    
     margin: 0;
     box-sizing: border-box;
     background: #607EAA;
@@ -174,6 +176,8 @@ footer {
 }
 
 .foot p {
+    
+    font-size: larger;
     text-align: justify;
     padding-left: 5%;
     text-indent: 20px;
@@ -499,7 +503,7 @@ position: relative;
 .col-2foot-1{
     
     display: inline-block;
-    width: 50%;
+    width: 49%;
     padding-top: 10%;
    
 }
