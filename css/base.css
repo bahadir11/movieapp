@@ -16,8 +16,28 @@ body {
     display: block;
     clear: both;
 }
+.hidesection{
+    display:none ;
+}
+
 
 @media(min-width:0px) and (max-width:575px) {
+    .hidesection{
+        color: aliceblue;
+        display: inline;
+        font-size: large;
+        width: fit-content;
+    }
+    .hidesection:hover{
+        color: blue;
+        display: inline;
+        font-size: large;
+        width: fit-content;
+    }
+    .hide{
+        display: none;
+    }
+   
     .signup-form{
         width: 85%;
         
@@ -26,21 +46,33 @@ body {
         background-color: rgb(209, 209, 255);
     }
 
-    .aformovieapp {
-        text-align: right;
-        font-size:small;
-    }
-
+    
+.mainheader{
+    width: 100%;
+    position: relative;
+}
     .mainheadernav {
+        position: relative;
+        display: inline-block;
         text-align: right;
-        width: 79%;
-        font-size:small;
+        width:calc(100% - 100px);
+        right: 10px;
         margin-left: 0%;
         margin-right: 0%;
         padding: auto 0px;
       
     }
-
+ .mainheadernav:hover {
+        position: relative;
+        display: inline-block;
+        text-align: right;
+        width:calc(100% - 100px);
+        right: 10px;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: auto 0px;
+      
+    }
     .mainheaderlogodiv {
         width: fit-content;
         font-size:small;
@@ -51,23 +83,16 @@ body {
         margin-top: 15px;
         padding-left: 10px;
     }
-    .aformovieapp:hover {
-        text-align: right;
-        font-size:small;
-    }
+    
 
-    .mainheadernav:hover {
-        text-align: right;
-        width: 79%;
-        font-size:small;
-        margin-left: 0%;
-        margin-right: 0%;
-        padding: auto 0px;
-      
-    }
+   #mainheaderlogo:hover{
+    font-size:small;
+   }
+  
 
     .mainheaderlogodiv:hover {
-        width: fit-content;
+       
+        width:fit-content;
         font-size:small;
         margin-left: 0%;
         margin-right: 0%;
@@ -160,7 +185,34 @@ body {
         top: 400px;
         width: 90%;
         font-size: 30px;
-    }
+    } 
+    .responsive .mainheaderlogodiv{ 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   }
+   .responsive .mainheadernav .hide{
+    position: relative;
+    
+    padding: 3px;
+    display: block;
+    width: 100%;
+    margin: 0%;
+    text-align: left;
+    margin-bottom: 5px;
+    background: rgba(0, 51, 146, .5);
+    right: -90%;
+    width: fit-content;
+    display: block;
+    top: 40px;
+    text-align: center;
+   }
+   .responsive .hidesection{
+    position: absolute;
+  text-align: right;
+    right: -100px;
+    top:10px;
+   }
 }
 
 @media(min-width: 576px) and (max-width:767px) {

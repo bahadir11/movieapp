@@ -17,15 +17,16 @@
 </head>
 
 <body id="body">
-    <header class="mainheader">
-        <div class="mainheaderlogodiv"> <a href="MovieApp.html" id="mainheaderlogo"class="aformovieapp"> MovieApp</a></div>
-
+    <header class="mainheader ">
+        <div id="main-nav" class="mainheaderlogodiv "> <a href="MovieApp.html" id="mainheaderlogo"class="aformovieapp"> MovieApp</a></div>
         <nav class="mainheadernav mainheadernavitem">
-            <a href="#" id="filmler"class="aformovieapp"><i class="fa-solid fa-film"></i> Movies</a>
-            <a href="#" style="width: 110px;"class="aformovieapp"><i class="fas fa-tv"></i> TV Shows</a>
-            <a href="login.html" class="btn btn-secondary login" style="font-size: larger;">LOGİN</a>
+            <a href="#" id="filmler"class="aformovieapp hide"><i class="fa-solid fa-film"></i> Movies</a>
+            <a href="#" style="width: 110px;"class="aformovieapp hide"><i class="fas fa-tv"></i> TV Shows</a>
+            <a href="login.html" class="btn btn-secondary hide login" style="font-size: larger;">LOGİN</a>
+            <a href="#" onclick="display()" class="hidesection"><i class="fa fa-bars"></i></a>
 
         </nav>
+    
     </header>
     <div id="showcase"></div>
     <div class="wel">
@@ -235,6 +236,13 @@
                 <a href=""><i class="fa-brands fa-instagram hover"></i></a></div>
         </div>
     </footer>
+    <script>
+        function display(){
+            var element = document.getElementsByClassName("mainheadernav","hide","hidesection","mainheaderlogodiv");
+           
+            element.classList.toggle("responsive");
+        }
+    </script>
 </body>
 
 </html>
